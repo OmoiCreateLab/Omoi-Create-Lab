@@ -1234,11 +1234,15 @@ h3 {
   }
 
   .profile-card img {
-    width: min(100%, 180px);
+    width: 85%;
+    max-width: 320px;
   }
 
   .profile-card {
+    width: 95%;
+    max-width: 420px;
     padding: 20px 20px 24px;
+    margin-bottom: 48px;
     margin-right: auto;
     margin-left: auto;
     justify-self: center;
